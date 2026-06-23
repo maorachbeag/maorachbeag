@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Entry Title — Maorach Beag</title>
+        <link rel="icon" type="image/png" href="images/Native Logo File-06.png" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <!-- Updated paths to exit the subfolder and find the root assets -->
+        <link rel="stylesheet" href="../assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+        <style>
+            /* 1. Top Navigation Bar Frame Alignment */
+            #header {
+                background-color: #1E7A61 !important; /* Brand Green */
+                text-transform: none !important; 
+                height: 5em !important; 
+                line-height: 5em !important; 
+            }
+
+            /* 2. Logo Graphic Sizing */
+            #header h1 a img {
+                height: 70px !important; 
+                width: auto;
+                vertical-align: middle;
+            }
+
+            /* 2b. Hamburger Menu Alignment Sync */
+            #header nav ul li a.menuToggle {
+                height: 5em !important;
+                line-height: 5em !important;
+                display: flex !important;
+                align-items: center !important;
+            }
+            #header nav ul li a.menuToggle::after {
+                max-height: 5em !important;
+            }
+
+            /* 3. Sub-banner Hero (Clean Landscape Overlay pointed out to root) */
+            #main > header {
+                background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/little_loch_broom4.jpg') !important;
+                background-size: cover !important;
+                background-position: center !important;
+                background-attachment: fixed !important;
+                padding: 7em 0 4em 0 !important;
+            }
+
+            /* 4. Formatting Structural Refinements for Reading Content */
+            .entry-meta {
+                display: block;
+                font-size: 0.9em;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: #1E7A61;
+                margin-bottom: 1.5em;
+                font-weight: 600;
+            }
+            
+            .back-link {
+                display: inline-flex;
+                align-items: center;
+                margin-bottom: 2em;
+                font-weight: 600;
+                color: #1E7A61 !important;
+                text-decoration: none;
+                border-bottom: none !important;
+            }
+            .back-link:hover {
+                color: #2aab88 !important;
+            }
+
+            /* 5. Fluid Responsive Images with Maximum Bounds */
+            .inner img {
+                display: block;
+                width: 100%;          /* Fluid downscaling on narrow viewports */
+                max-width: 500px;     /* Prevents layout bloat and pixelation on desktop */
+                height: auto;
+                margin: 2em auto;     /* Visual decoupling from text blocks */
+                border-radius: 4px;   /* Clean architectural corner smoothing */
+                box-shadow: 0 2px 10px rgba(0,0,0,0.06); /* Flat modern depth profile */
+            }
+        </style>
+    </head>
+    <body class="is-preload">
+
+        <!-- Page Wrapper -->
+            <div id="page-wrapper">
+
+                <!-- Header Bar -->
+                    <header id="header">
+                        <h1>
+                            <a href="../index.html">
+                                <img src="../images/Native_Logo.png" alt="Maorach Beag" />
+                            </a>
+                        </h1>
+                        <nav id="nav">
+                            <ul>
+                                <li class="special">
+                                    <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+
+                <!-- Menu Drawer Navigation -->
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../story.html">Our Story</a></li>
+                            <li><a href="../restoration.html">Restoration</a></li>
+                            <li><a href="../journal.html">Journal</a></li>
+                            <li><a href="../contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                <!-- Main Article Segment -->
+                    <article id="main">
+                        
+                        <!-- Sub-Page Hero Banner Frame -->
+                        <header>
+                            <h2>Journal Log Entry</h2>
+                            <p>A stripped, clean template structure for individual journal updates</p>
+                        </header>
+                        
+                        <!-- Body Content Area (Single-column layout layout) -->
+                        <section class="wrapper style5">
+                            <div class="inner">
+                                
+                                <!-- Symmetrical Navigation Outflow -->
+                                <a href="../journal.html" class="back-link">← Back to Journal Archive</a>
+
+                                <section>
+                                    <!-- Metadata Track (Date / Context Markers) -->
+                                    <span class="entry-meta">May 2026 &bull; Field Log</span>
+                                    
+                                    <h3>Title of the Specific Entry Goes Here</h3>
+                                    
+                                    <p>This is your core content area. The structure has been stripped of the multi-column archival grids from the archive page, leaving a wide, highly legible single-column reading canvas optimized for structured reports, telemetry data, or sequential paragraphs.</p>
+                                    
+                                    <p>You can drop standard images inline here, use lists to track physical observations, or outline hardware modifications without any template interference.</p>
+                                    
+                                    <blockquote>
+                                        Use blockquote wrappers like this to emphasize critical field metrics, water sample thresholds, or key engineering milestones.
+                                    </blockquote>
+
+                                    <p>Paragraph text flows down naturally across standard layout bounds, inheriting global typography scaling directly from your main stylesheet framework.</p>
+                                </section>
+
+                            </div>
+                        </section>
+                    </article>
+
+                <!-- Footer Alignment -->
+                    <footer id="footer">
+                        <ul class="icons">
+                            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                            <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+                        <ul class="copyright">
+                            <li>&copy; Maorach Beag</li>
+                        </ul>
+                    </footer>
+
+            </div>
+
+        <!-- Core Architectural Script Anchors -->
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/jquery.scrolly.min.js"></script>
+            <script src="../assets/js/jquery.scrollex.min.js"></script>
+            <script src="../assets/js/browser.min.js"></script>
+            <script src="../assets/js/breakpoints.min.js"></script>
+            <script src="../assets/js/util.js"></script>
+            <script src="../assets/js/main.js"></script>
+
+    </body>
+</html>

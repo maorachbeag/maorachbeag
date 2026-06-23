@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Contact Us — Maorach Beag</title>
+        <link rel="icon" type="image/png" href="images/Native Logo File-06.png" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            /* 1. Top Navigation Bar Frame Alignment */
+            #header {
+                background-color: #1E7A61 !important; /* Brand Green */
+                text-transform: none !important; 
+                height: 5em !important; 
+                line-height: 5em !important; 
+            }
+
+            /* 2. Logo Graphic Sizing */
+            #header h1 a img {
+                height: 70px !important; 
+                width: auto;
+                vertical-align: middle;
+            }
+
+            /* 2b. Hamburger Menu Alignment Sync */
+            #header nav ul li a.menuToggle {
+                height: 5em !important;
+                line-height: 5em !important;
+                display: flex !important;
+                align-items: center !important;
+            }
+            #header nav ul li a.menuToggle::after {
+                max-height: 5em !important;
+            }
+
+            /* 3. Sub-banner Hero */
+            #main > header {
+                background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/little_loch_broom4.jpg') !important;
+                background-size: cover !important;
+                background-position: center !important;
+                background-attachment: fixed !important;
+                padding: 7em 0 4em 0 !important;
+            }
+
+            /* 4. Contact Specific Structural Refinements */
+            .contact-info-block {
+                background: #f8f9fa;
+                border-left: 4px solid #1E7A61;
+                padding: 1.5em;
+                margin-bottom: 2.5em;
+                border-radius: 0 4px 4px 0;
+            }
+
+            .contact-info-block p {
+                margin: 0;
+            }
+
+            .contact-info-block a {
+                color: #1E7A61 !important;
+                font-weight: 600;
+                text-decoration: none;
+                border-bottom: none !important;
+            }
+
+            .contact-info-block a:hover {
+                color: #2aab88 !important;
+            }
+
+            /* Custom form button alignment over-rides to match branding */
+            form .actions input[type="submit"] {
+                background-color: #1E7A61 !important;
+                box-shadow: none !important;
+                color: #ffffff !important;
+                transition: background-color 0.2s ease;
+            }
+
+            form .actions input[type="submit"]:hover {
+                background-color: #2aab88 !important;
+            }
+        </style>
+    </head>
+    <body class="is-preload">
+
+        <div id="page-wrapper">
+
+                <header id="header" class="alt">
+                        <h1>
+                            <a href="index.html">
+                                <img src="images/Native_Logo.png" alt="Maorach Beag" />
+                            </a>
+                        </h1>
+                        <nav id="nav">
+                            <ul>
+                                <li class="special">
+                                    <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+
+                <nav id="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="story.html">Our Story</a></li>
+                            <li><a href="restoration.html">Restoration</a></li>
+                            <li><a href="journal.html">Journal</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                <article id="main">
+                        
+                        <header>
+                            <h2>Get in Touch</h2>
+                            <p>We'd love to hear from you regarding aquaculture projects, restoration inquiries, or orders.</p>
+                        </header>
+                        
+                        <section class="wrapper style5">
+                            <div class="inner">
+
+                                <section>
+                                    <h3>Contact Information</h3>
+                                    <div class="contact-info-block">
+                                        <p>For direct inquiries or if you prefer to drop us a line, you can reach us via email at:</p>
+                                        <p><strong><a href="mailto:info@maorachbeag.scot">info@maorachbeag.scot</a></strong></p>
+                                    </div>
+
+                                    <hr />
+
+                                    <h3>Send a Message</h3>
+                                    <form method="POST" action="https://api.web3forms.com/submit">
+                                        
+                                        <input type="hidden" name="access_key" value="8940d3d8-d968-4850-81fa-35d3dad5e6a2">
+                                        
+                                        <input type="hidden" name="subject" value="New Website Inquiry - Maorach Beag">
+                                        <input type="hidden" name="from_name" value="Maorach Beag Contact Form">
+
+                                        <div class="row gtr-uniform">
+                                            <div class="col-6 col-12-xsmall">
+                                                <label for="demo-name">Name</label>
+                                                <input type="text" name="name" id="demo-name" value="" placeholder="Your Name" required />
+                                            </div>
+                                            <div class="col-6 col-12-xsmall">
+                                                <label for="demo-email">Email</label>
+                                                <input type="email" name="email" id="demo-email" value="" placeholder="your.email@domain.com" required />
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="demo-category">Inquiry Type</label>
+                                                <select name="category" id="demo-category">
+                                                    <option value="">- Select Option -</option>
+                                                    <option value="restoration">Restoration Projects</option>
+                                                    <option value="general">General Inquiry</option>
+                                                    <option value="orders">Oyster Orders</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="demo-message">Message</label>
+                                                <textarea name="message" id="demo-message" placeholder="Enter your message here..." rows="6" required></textarea>
+                                            </div>
+                                            <div class="col-12">
+                                                <ul class="actions">
+                                                    <li><input type="submit" value="Send Message" class="primary" /></li>
+                                                    <li><input type="reset" value="Reset" /></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </section>
+
+                            </div>
+                        </section>
+                    </article>
+
+                <footer id="footer">
+                        <ul class="icons">
+                            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                            <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+                        <ul class="copyright">
+                            <li>&copy; Maorach Beag</li>
+                        </ul>
+                    </footer>
+
+            </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/jquery.scrollex.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+
+    </body>
+</html>

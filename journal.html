@@ -1,0 +1,419 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Journal — Maorach Beag</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="images/Native Logo File-06.png" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* 1. Fix the Top Navigation Bar */
+            #header {
+                background-color: #1E7A61 !important; /* Forces your brand green */
+                text-transform: none !important; 
+                height: 5em !important; /* Expanded from 3.5em to give the logo room */
+                line-height: 5em !important; /* Centers the menu button vertically */
+            }
+
+            /* 2. Scale up the logo graphic */
+            #header h1 a img {
+                height: 70px !important; /* Doubled from 35px */
+                width: auto;
+                vertical-align: middle;
+}
+
+			/* 2. Style your header logo link alignment */
+			#header h1 a {
+				display: flex;
+				align-items: center;
+				text-transform: none !important;
+				letter-spacing: normal !important;
+			}
+
+			/* 3. Fix the Banner Section (Replaces the muddy brown overlay) */
+			#main > header {
+				background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/little_loch_broom4.jpg') !important;
+				background-size: cover !important;
+				background-position: center !important;
+				background-attachment: fixed !important;
+				padding: 7em 0 5em 0 !important;
+			}
+
+			/* 4. Brand accent for links/text inside the entries */
+			.journal-accent {
+				color: #1E7A61 !important;
+				font-weight: 600;
+				letter-spacing: 0.1em;
+			}
+
+            #header nav ul li a.menuToggle {
+                height: 5em !important;
+                line-height: 5em !important;
+                display: flex !important;
+                align-items: center !important;
+            }
+
+            /* Fix for the internal three lines container if they still cling to the top */
+            #header nav ul li a.menuToggle::after {
+                max-height: 5em !important;
+            }
+			
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header Bar -->
+					<header id="header">
+						<!-- Replaced uppercase text with your brand logo asset -->
+						<h1>
+							<a href="index.html">
+								<img src="images/Native_Logo.png" alt="Maorach Beag" style="height: 35px; width: auto; margin-right: 10px; vertical-align: middle;" />
+							</a>
+						</h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu Drawer -->
+					<nav id="menu">
+						<ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="story.html">Our Story</a></li>
+                            <li><a href="restoration.html">Restoration</a></li>
+                            <li><a href="journal.html">Journal</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main Content Wrapper -->
+					<article id="main">
+						<!-- This header now uses your loch photo background instead of brown -->
+						<header>
+							<h2>Journal</h2>
+							<p>Notes and updates from Maorach Beag</p>
+						</header>
+						
+						<!-- Journal Archive Grid Layout -->
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<section>
+									<h3 class="journal-accent">Latest Entry</h3>
+									<p>A list of notes and updates related to our farm and restoration activities.</p>
+									<hr />
+								</section>
+
+								<!-- Column system for your logs -->
+								<div class="row">
+									
+									<!-- Entry 1 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/oyster_release.png" alt="Forth Oyster Update" />
+										</span>
+										<h5>Jan 2025 — Oysters and the Firth of Forth - Part 5 (Progress Report)</h5>
+										<p>The WWF oyster restoration project in the Firth of Forth #restorationforth has shown promising results, with recent surveys revealing an impressive 85% survival rate among the reintroduced native oysters.</p>
+										<ul class="actions">
+											<li><a href="journal/oysters-and-the-firth-of-forth-part-5.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+									<!-- Entry 2 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/Glenmorangie.jpg" alt="Glenmorangie DEEP Native Oyster Restoration project update" />
+										</span>
+										<h5>Nov 2024 — DEEP - 100k Oysters Announcement</h5>
+										<p>The Glenmorangie DEEP Native Oyster Restoration project have now deployed 100k Native Oysters <em>(Ostrea edulis)</em> to the Dornoch Firth. We are proud to be the main supply chain partner for the oysters.</p>
+										<ul class="actions">
+											<li><a href="journal/deep-100k-oysters-announcement.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+								<div class="row">
+
+									<!-- Entry 3 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/loch_blue_skye.jpg" alt="Cuairt Suas 2023" />
+										</span>
+										<h5>Nov 2023 — Cuairt Suaus (A Round Up) - 2023</h5>
+										<p>It is that that time of year again, so time for a wee round up of what we have been up to over the last 12 months. A key year for us and our Native European Flat Oyster,<em>(Ostrea edulis)</em>, Restoration efforts. </p>
+										<ul class="actions">
+											<li><a href="journal/cuairt-suas-a-round-up-2023.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+									<!-- Entry 4 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/wind_rain_repeat.jpg" alt="Wind Rain & Repeat" />
+										</span>
+										<h5>Sept 2024 — Rain And Wind X Repeat</h5>
+										<p>Dear reader, what can we say, it has been a while since we posted an update. As it happens, this is summer has been dreadful, cold, wet and windy, and apparently it has been the worst summer in Scotland in over twenty years but time and tide waits for no man. So let’s get on with a brief review of what has been happening.</p>
+										<ul class="actions">
+											<li><a href="journal/rain-and-wind-x-repeat.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+								<div class="row">
+
+									<!-- Entry 5 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/Forth_First_Oyster_100_years.jpg" alt="Forth First Oyster 100 years" />
+										</span>
+										<h5>Sept 2023 — Oysters and the Firth of Forth - Part 4 (Making it Happen)</h5>
+										<p>And so this week, and after a huge effort by so many people, the restoration of Native oysters (Ostrea edulis) to the Firth of Forth was started. The first Native oysters back in the firth in almost 100 years. A proud moment for all involved.</p>
+										<ul class="actions">
+											<li><a href="journal/oysters-and-the-firth-of-forth-part-4-making-it-happen.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+									<!-- Entry 6 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/adult_edulis_grade.jpg" alt="Adult Ostrea edulis" />
+										</span>
+										<h5>May 2023 — Oysters and the Firth of Forth - Part 3 (Extinction and Rebirth)</h5>
+										<p>The history of oysters in Firth of Forth since the time of the Industrial Revolution. A story of extinction. Learn about Restoration Forth project's efforts to restore oyster, <em>Ostrea edulis</em>, populations.</p>
+										<ul class="actions">
+											<li><a href="journal/oysters-and-the-firth-of-forth-part-3-extinction.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+								<div class="row">
+
+									<!-- Entry 7 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/newhaven_fishwives.jpg" alt="Newhaven Fishwives" />
+										</span>
+										<h5>Mar 2023 — Oysters and the Firth of Forth - Part 2 (The Fisher Folk)</h5>
+										<p>The story of the 'Fisher Folk', the people who fished for oysters and other species in the Firth of Forth. </p>
+										<ul class="actions">
+											<li><a href="journal/oysters-and-the-firth-of-forth-part-2-the-fisher-folk.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+									<!-- Entry 8 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/Forth_edulis_fishery.png" alt="Firth of Forth Oyster Fishery Map" />
+										</span>
+										<h5>Feb 2023 — Oysters and the Firth of Forth - Part 1 (Pre Industrial Revolution)</h5>
+										<p>The first in a series of small articles that cover the fascinating and colourful history of Scotland’s most famous oyster bed in the Firth of Forth. This is an introduction and considers the pre industrial revolution period.</p>
+										<ul class="actions">
+											<li><a href="journal/oysters-and-the-firth-of-forth-part-1-pre-industrial-revolution.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+								<div class="row">
+
+									<!-- Entry 8 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/Natives3.png" alt="Native Ostrea edilus oysters" />
+										</span>
+										<h5>Nov 2022 — Word of the day - Ostracise!</h5>
+										<p>Are you aware of the link between oysters and the word ostracise? It is one of those little curiosities of life that pop up occasionally.</p>
+										<ul class="actions">
+											<li><a href="journal/word-of-the-day-ostracise.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+									<!-- Entry 9 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/edulis_seed_hatchery.jpg" alt="Native Ostrea edilus seed oysters" />
+										</span>
+										<h5>June 2022 - DEEP - Native Oyster Restoration - Phase 2</h5>
+										<p>Phase 2 of the Glenmorangie DEEP Native Oyster Restoration project is now underway. We have recently taken the first batch of seed oysters onto the farm for on growing in support of this phase. Also our first use of ground breaking eDNA technology (Roslin Institute) to aid in Bonamia disease screening.</p>
+										<ul class="actions">
+											<li><a href="journal/deep-native-oyster-restoration-phase-2.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+								</div>								
+
+								<div class="row">
+
+									<!-- Entry 10 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/opened_rock_oyster.jpg" alt="Shucked Rock Oyster" />
+										</span>
+										<h5>Oct 2021 — Can you eat oysters all year round and when are they at their best?</h5>
+										<p>Can you eat oysters all year round and when are they at their best? An article to help try and navigate these two key oyster related questions. We shall use the discussion to generate some rough 'rules of thumb' to help you on your own oyster quest!</p>
+										<ul class="actions">
+											<li><a href="journal/can-you-eat-oysters-all-year-round-and-when-are-they-at-their-best.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+									<!-- Entry 11 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/Glenmorangie_DEEP_5.jpg" alt="Native Ostrea edilus seed oysters Dornoch Firth release" />
+										</span>
+										<h5>Aug 2021 - The Importance of Oyster Restoration – Chapter 4 – A Milestone Achieved</h5>
+										<p>Glenmorangie Distillery and a team of scientists from Heriot-Watt University have reached a significant milestone in the Dornoch Environmental Enhancement Project (DEEP), focused on restoring a sustainable native oyster reef in the Dornoch Firth.  August 2021 marks the completion of 20,000 native European oysters being returned to the Dornoch Firth, where they became extinct more than 100 years ago as a result of overfishing. This phase’s success will pave the way for the restoration of the reef, after years of research, planning and monitoring.</p>
+										<ul class="actions">
+											<li><a href="journal/the-importance-of-oyster-restoration-chapter-4-a-milestone-achieved.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+								<div class="row">
+
+									<!-- Entry 12 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/Native_Oyster_Joined.jpg" alt="Wild Ostrea edulis Oyster Double" />
+										</span>
+										<h5>June 2021 — The Importance of Oyster Restoration – Chapter 3 – Oyster Reef Restoration – First Steps</h5>
+										<p>What is an Oyster Reef? What is Oyster Reef Restoration? How can Oyster Reefs be restored? A brief review and an update on what happened to our 6K Native oysters.</p>
+										<ul class="actions">
+											<li><a href="journal/the-importance-of-oyster-restoration-chapter-3-oyster-reef-restoration-first-steps.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+									<!-- Entry 13 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/ostrea_edulis_delivery.jpg" alt="Native Ostrea edilus seed oysters Dornoch Firth release" />
+										</span>
+										<h5>May 2021 - The Importance of Oyster Restoration – Chapter 2 – Biosecurity</h5>
+										<p>Oyster Restoration requires Biosecurity. What is Biosecurity? Biosecurity is the use of measures to reduce the chance of negative effects upon ecosystems from biological organisms. This is important as over the years shellfish movements have been a major vector for the introduction of Invasive Non Native Species and various diseases.</p>
+										<ul class="actions">
+											<li><a href="journal/the-importance-of-oyster-restoration-chapter-2-biosecurity.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+								<div class="row">
+
+									<!-- Entry 14 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/Native Logo File-07.png" alt="Maorach Beag Native Ostrea edulis Restoration" />
+										</span>
+										<h5>Apr 2021 — The Importance of Oyster Restoration – Chapter 1 – Awake</h5>
+										<p>The Importance of Oyster Restoration. Oysters are fantastic marine creatures, an individual animal can filter up to five litres of water per hour. Oysters are ‘Ecosystem Engineers’, and play a vital role in the protection of fragile marine ecosystems. We need to help them survive and prosper, it is in our own interest.</p>
+										<ul class="actions">
+											<li><a href="journal/the-importance-of-oyster-restoration-chapter-1-awake.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+									<!-- Entry 15 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/UNESCO_loch.png" alt="Oyster Longlines in Loch" />
+										</span>
+										<h5>March 2021 - The Wester Ross UNESCO Biosphere  - Announcement</h5>
+										<p>We have some exciting news to share! The Native Oyster & Shellfish Company is now an official registered supporter of the Wester Ross UNESCO Biosphere.</p>
+										<ul class="actions">
+											<li><a href="journal/the-wester-ross-unesco-biosphere-announcement.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+								
+
+								<div class="row">
+
+									<!-- Entry 16 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/bst1.jpg" alt="Oyster Longlines in Loch" />
+										</span>
+										<h5>Feb 2021 - Is Oyster Farming a Good Thing?</h5>
+										<p>We would argue that Oyster Farming, if done thoughtfully, is a good thing. We are growing a natural and chemical free product, that relies upon and helps restore the environment. The result of this is a wonderfully tasty and nutritious food full of the best Mother Nature has to offer.</p>
+										<ul class="actions">
+											<li><a href="journal/is-oyster-farming-a-good-thing.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+								
+									<!-- Entry 17 -->
+									<div class="col-6 col-12-medium">
+										<!-- Native template image box that scales automatically -->
+										<span class="image fit">
+											<img src="images/Natives_Graded.png" alt="Graded Ostrea edilus oysters" />
+										</span>
+										<h5>Dec 2020 - The Native Oyster - Ostrea edulis</h5>
+										<p>A Native Oyster? The European Flat Oyster (Ostrea edulis) is the indigenous oyster of Europe, and in these parts it is often called the Native or Flat oyster. The history of this species is one of decline but we aim to help save this beautiful little animal.</p>
+										<ul class="actions">
+											<li><a href="journal/the-native-oyster-ostrea-edulis.html" class="button small">Read Entry</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+								</div>
+
+
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Maorach Beag</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -29,6 +29,10 @@
                     display: flex !important;
                     flex-direction: column !important;
                     justify-content: center !important;
+                    
+                    /* Shift the background image focal point down so the landscape is visible */
+                    background-position: center bottom !important; 
+                    background-attachment: scroll !important; /* Fixes mobile scaling glitches */
                 }
     
                 /* 2. Un-distort the logo image and prevent squishing */
